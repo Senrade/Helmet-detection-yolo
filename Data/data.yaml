@@ -1,0 +1,14 @@
+train: D:\Projects\Helmet detection\Data\train
+val: D:\Projects\Helmet detection\Data\valid
+test: D:\Projects\Helmet detection\Data\test
+
+nc: 2
+names: ['Helmet', 'Nonhelmet']
+
+roboflow:
+  workspace: vault-pktep
+  project: helmet-and-nonhelmet-detection
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/vault-pktep/helmet-and-nonhelmet-detection/1
+mask: True
